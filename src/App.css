@@ -33,8 +33,37 @@
   }
 }
 
-.card {
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: .6rem;
+  max-width: 400px;
+  align-items: center;
+}
+
+.img_wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
   padding: 2em;
+  max-width: 600px;
+}
+
+.info_wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  max-width: 400px;
+  text-align: left;
+  font-weight: bold;
+}
+
+img {
+  max-width: 400px;
+  margin: auto;
 }
 
 .read-the-docs {
